@@ -1,0 +1,62 @@
+$border-color: rgb(187, 207, 236);
+
+.App {
+    background: rgb(198, 246, 255);
+}
+.positions-page{
+    padding-top: 20px;
+    .search{
+        padding-left: 30px;
+        .checkbox{
+            padding-top: 40px;
+        }
+        .buttonsearch{
+            padding-top: 30px;
+        }
+    }
+    .job-list{
+        .joblist-title{
+            font-weight: bolder;
+        }
+        border-width: 3px;
+        border-color: $border-color;
+    }
+}
+
+.position-single {
+    border-width: 9px;
+    border-color: $border-color;
+    span{
+        color: rgb(102, 102, 102);
+    }
+    .header-title{
+        font-weight: bolder;
+    }
+    h5{
+        font-weight: bolder;
+    }
+    img{
+        max-width: 100%;
+    }
+}
+
+.position-list-item {
+    padding-bottom: 0;
+    .title{
+        font-weight: bolder;
+    }
+    .company{
+        color: rgb(102, 102, 102);
+    }
+    .type{
+        color: rgb(117, 117, 0);
+        font-weight: bold;
+    }
+    .date{
+        color: rgb(102, 102, 102);
+    }
+    .location{
+        color: rgb(43, 43, 43);
+        font-size: 15px;
+    }
+}
